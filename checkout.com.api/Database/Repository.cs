@@ -2,7 +2,6 @@
 using Dapper;
 using Microsoft.Extensions.Options;
 using System.Data.SqlClient;
-using System.Transactions;
 
 namespace checkout.com.api.Database
 {

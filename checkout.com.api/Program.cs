@@ -1,3 +1,4 @@
+using checkout.com.api.BusinessLogic;
 using checkout.com.api.Data;
 using checkout.com.api.Database;
 using checkout.com.api.Integrations;
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<ICardVerification, CardVerification>();
 builder.Services.AddTransient<IRepository, Repository>();
 builder.Services.AddTransient<IBankRequest, BankRequest>();
+builder.Services.AddTransient<IBusinessLogicLayer, BusinessLogicLayer>();
 
 
 builder.Services.AddOptions();

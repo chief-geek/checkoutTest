@@ -1,10 +1,7 @@
 ﻿using checkout.com.api.BusinessLogic;
 using checkout.com.api.Data;
 using checkout.com.api.Database;
-using checkout.com.api.Integrations;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
 using System.Net;
 
 namespace checkout.com.api.Controllers
